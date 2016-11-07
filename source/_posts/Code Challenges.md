@@ -11,6 +11,8 @@ tags: [Code Challenges, Interview Practices]
    >
    > Problem at https://www.hackerrank.com/challenges/ctci-array-left-rotation
 
+   <!--more-->
+
    ```python
    def array_left_rotation(a, n, k):
     # a for array, n for #(elements), k for shift
@@ -285,113 +287,114 @@ tags: [Code Challenges, Interview Practices]
 
 10. Validate BST
 
-    ```python
-    """ Node is defined as
-    class node:
-        def __init__(self, data):
-            self.data = data
-            self.left = None
-            self.right = None
-    """
+   ```python
+   """ Node is defined as
+   class node:
+       def __init__(self, data):
+           self.data = data
+           self.left = None
+           self.right = None
+   """
 
-    def check_binary_search_tree_(root):
-        """
-        :type root: TreeNode
-        :rtype: bool
-        """
-        stack = []
-        curr = root
-        prev = None
-        while curr or stack:
-            while curr:
-                stack.append(curr)
-                curr = curr.left
+   def check_binary_search_tree_(root):
+       """
+       :type root: TreeNode
+       :rtype: bool
+       """
+       stack = []
+       curr = root
+       prev = None
+       while curr or stack:
+           while curr:
+               stack.append(curr)
+               curr = curr.left
 
-            if stack:
-                curr = stack.pop()
-                if prev and curr.data <= prev.data:
-                    return False
-                prev = curr
-                curr = curr.right
-        return True
-    ```
+           if stack:
+               curr = stack.pop()
+               if prev and curr.data <= prev.data:
+                   return False
+               prev = curr
+               curr = curr.right
+       return True
+   ```
 
 11. Tries
 
-    ```python
-    # list_implementation
-    class Node(object):
+   ```python
+   # list_implementation
+   class Node(object):
 
-        def __init__(self, char):
-            self.char = char
-            self.children = []
-            self.words_count = 0
+       def __init__(self, char):
+           self.char = char
+           self.children = []
+           self.words_count = 0
 
-        def get_child(self, c):
-            for child in self.children:
-                if child.char == c:
-                    return child
-            return None
+       def get_child(self, c):
+           for child in self.children:
+               if child.char == c:
+                   return child
+           return None
 
-    class Trie(object):
+   class Trie(object):
 
-        def __init__(self):
-            self.root = Node("*") # token root char
+       def __init__(self):
+           self.root = Node("*") # token root char
 
-        def add(self, word):
-            current = self.root
-            for i in word:
-                next_node = current.get_child(i)
-                if next_node is None:
-                    next_node = Node(i)
-                    current.children.append(next_node)
-                next_node.words_count += 1
-                current = next_node
+       def add(self, word):
+           current = self.root
+           for i in word:
+               next_node = current.get_child(i)
+               if next_node is None:
+                   next_node = Node(i)
+                   current.children.append(next_node)
+               next_node.words_count += 1
+               current = next_node
 
-        def find(self, word):
-            current = self.root
-            for i in word:
-                next_node = current.get_child(i)
-                if next_node is None:
-                    return 0
-                current = next_node
-            return current.words_count
+       def find(self, word):
+           current = self.root
+           for i in word:
+               next_node = current.get_child(i)
+               if next_node is None:
+                   return 0
+               current = next_node
+           return current.words_count
 
-    # dictionary_implementation
-    class Node(object):
+   # dictionary_implementation
+   class Node(object):
 
-        def __init__(self, char):
-            self.char = char
-            self.children = {}
-            self.words_count = 0
+       def __init__(self, char):
+           self.char = char
+           self.children = {}
+           self.words_count = 0
 
-        def get_child(self, c):
-            for child in self.children:
-                if child.char == c:
-                    return child
-            return None
+       def get_child(self, c):
+           for child in self.children:
+               if child.char == c:
+                   return child
+           return None
 
-    class Trie(object):
+   class Trie(object):
 
-        def __init__(self):
-            self.root = Node("*") # token root char
+       def __init__(self):
+           self.root = Node("*") # token root char
 
-        def add(self, word):
-            current = self.root
-            for i in word:
-                if i not in current.children:
-                    current.children[i] = Node(i)
-                current = current.children[i]
-                current.words_count += 1
-                
+       def add(self, word):
+           current = self.root
+           for i in word:
+               if i not in current.children:
+                   current.children[i] = Node(i)
+               current = current.children[i]
+               current.words_count += 1
+               
 
-        def find(self, word):
-            current = self.root
-            for i in word:
-                if i not in current.children:
-                    return 0
-                current = current.children[i]
-            return current.words_count
+       def find(self, word):
+           current = self.root
+           for i in word:
+               if i not in current.children:
+                   return 0
+               current = current.children[i]
+           return current.words_count
+   ```
 
 
 
@@ -403,9 +406,9 @@ tags: [Code Challenges, Interview Practices]
             tr.add(contact)
         elif op == "find":
             print(tr.find(contact))
-    ```
+    ​```
 
-12. Merge sort to count inversions
+12.  Merge sort to count inversions
 
     ```python
     def list_join(c,d):
@@ -448,7 +451,7 @@ tags: [Code Challenges, Interview Practices]
         return sortCounter
     ```
 
-13. Regular Expression Matching
+13.  Regular Expression Matching
 
     ```python
     # Implement regular expression matching with support for '.' and '*'.

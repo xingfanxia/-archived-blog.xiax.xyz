@@ -1,6 +1,6 @@
-title: Interview Practices Problems
+title: LeetCode and HackerRank Challenges
 date: 2016-11-06 22:17:39
-tags: [Code Challenges, Interview Practices]
+tags: [Code Challenges, Interview Practices, LeetCode, HankerRank]
 ---
 
 ### Arrays: Left Rotation
@@ -494,5 +494,208 @@ print(isMatch("aa", "a*")) #→ true
 print(isMatch("aa", ".*")) #→ true
 print(isMatch("ab", ".*")) #→ true
 print(isMatch("aab", "c*a*b")) #→ truea
+```
+
+### Sorting: Bubble Sort
+
+```python
+n = int(input().strip())
+a = list(map(int, input().strip().split(' ')))
+
+def bubble_sort(array):
+    total_num = 0
+    for i in range(len(array)):
+        num_swaps = 0
+        for j in range(len(array)-1):
+            if a[j+1]<a[j]:
+                temp = a[j]
+                a[j] = a[j+1]
+                a[j+1] = temp
+                num_swaps += 1
+                total_num += 1
+        if (num_swaps == 0):
+            break
+    return total_num
+
+num = bubble_sort(a)
+print("Array is sorted in {} swaps.".format(num))
+print("First Element:", a[0])
+print("Last Element:", a[len(a)-1])
+```
+
+### Sorting: Comparator
+
+```python
+from functools import cmp_to_key
+class Player:
+    def __init__(self, name, score):
+        self.name = name
+        self.score = score
+    def __repr__(self):
+        return name + "  " + str(score)
+    def comparator(a, b):
+        if a.score < b.score:
+            return 1
+        if a.score > b.score:
+            return -1
+        if a.name < b.name:
+            return -1
+        if a.name > b.name:
+            return 1
+        return 0
+n = int(input())
+data = []
+for i in range(n):
+    name, score = input().split()
+    score = int(score)
+    player = Player(name, score)
+    data.append(player)
+    
+data = sorted(data, key=cmp_to_key(Player.comparator))
+for i in data:
+    print(i.name, i.score)  
+```
+
+### Binary Search: Ice Cream Parlor
+
+#### Binary Search Approach By AllisonP
+
+```java
+import java.util.*;
+
+class IceCream implements Comparable{
+    public int cost;
+    public int id;
+
+    public IceCream(int cost, int index) {
+        this.cost = cost;
+        this.id = index;
+    }
+    
+    @Override
+    public int compareTo(Object o) {
+        IceCream iceCream = (IceCream) o;
+        
+        return this.cost - iceCream.cost;
+    }
+
+    @Override
+    public boolean equals(Object o){
+        IceCream iceCream = (IceCream) o;
+        
+        return iceCream.cost == this.cost;
+    }
+        
+}
+
+class Solution {
+    public IceCream[] menu;
+    public int n;
+    public int m;
+    
+    public Solution(IceCream[] menu, int n, int m) {
+        this.menu = menu;
+        Arrays.sort(this.menu);
+        this.n = n;
+        this.m = m;
+    }
+    
+    public int binarySearch(int min, int max, int search) {
+        
+        int middle = (min + max) >> 1;
+        
+        while(min <= max) {
+            // Search value is found
+            if( menu[middle].cost == search ) {
+                if(max - min <= 1 ) {
+                    return menu[middle].id;
+                }
+                
+                // else, continue searching
+                max = middle;
+            }
+            // Else, continue looking for search value
+            else {
+                if ( menu[middle].cost < search ) {
+                    // Continue searching right
+                    min = middle + 1;  
+                }
+                else {
+                    // Continue searching left
+                    max = middle - 1;
+                }
+            }
+            
+            // Set new middle at halfway point
+            middle = (min + max) >> 1;
+            
+        } // END WHILE, first > last
+        
+        // No price matching 'search' exists in the menu
+        return -1;
+    }
+    
+    public void solve() {
+        // Search menu for a valid pair of prices
+        for(int i = 0; i < n - 1 ; i++) {
+            // Set desired price that will match the cost at index i
+            int search = m - menu[i].cost;
+
+            // If search < menu[i], then no match exists for that cost because the menu array is sorted
+            if(search >= menu[i].cost) {    
+                
+                // Search for the desired value starting at the first index to the right of the flavor at index i
+                int index = binarySearch(i + 1, n - 1, search);
+
+                // Index of valid second flavor was returned by binary search 
+                if( index != -1 ) {
+                    System.out.println( Math.min(menu[i].id, index) + " " + Math.max(menu[i].id, index));
+                    break;
+                }
+                // Else, continue looping and check the next value.
+            }
+        }   
+    }
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+ 
+        int t = scanner.nextInt();
+        while(t-- > 0) {       
+            int m = scanner.nextInt();
+            int n = scanner.nextInt(); 
+            IceCream[] menu = new IceCream[n];
+            
+            // Fill flavor menu and sort
+            for (int i = 0; i < n; i++) {
+                menu[i] = new IceCream(scanner.nextInt(), i + 1);
+            }
+            
+            Solution solution = new Solution(menu, n, m);
+            solution.solve();
+        }   
+        scanner.close();
+    }                       
+}
+```
+
+#### Hash-Map Solution
+
+```python
+def flavors(m,a):
+    prices = {}
+    for idx, p in enumerate(a):
+        if m-p in prices:
+            return prices[m-p], idx
+        prices[p] = idx
+    return None
+
+t = int(input().strip())
+for a0 in range(t):
+    m = int(input().strip())
+    n = int(input().strip())
+    a = list(map(int, input().strip().split(' ')))
+    f1, f2 = flavors(m,a)
+    print(f1+1, f2+1)
 ```
 

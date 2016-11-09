@@ -12,6 +12,7 @@ Behavioral questions are asked to get to know your personality, to understand yo
 ### InterviewPreparationGrid
 
 Go through each of the projects or components of your resume and ensure that you can talk about them in detail. Filling out a grid like this may help:
+
 | Common Questions          | Project 1 | Project 2 | Project 3 |
 | ------------------------- | --------- | --------- | --------- |
 | Challenges                |           |           |           |

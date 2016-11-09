@@ -9,6 +9,7 @@ tags: [Interview, Behavioral Questions]
 
 Behavioral questions are asked to get to know your personality, to understand your resume more deeply, and just to ease you into an interview. They are important questions and can be prepared for.
 
+<!--more-->
 ### InterviewPreparationGrid
 
 Go through each of the projects or components of your resume and ensure that you can talk about them in detail. Filling out a grid like this may help:

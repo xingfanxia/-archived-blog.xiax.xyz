@@ -1,5 +1,4 @@
----
-title: Interview Techniques
+title: Behavioral Questions Guide
 date: 2016-11-08 19:32:47
 tags: [Interview, Behavioral Questions]
 ---

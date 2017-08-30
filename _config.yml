@@ -3,7 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
+<<<<<<< HEAD
 title: Coder and Technologist
+=======
+title: Coder | Dreamer
+>>>>>>> adding next as a git submodule
 subtitle: Xingfan's Tech Blog
 description:
 author: Xingfan Xia

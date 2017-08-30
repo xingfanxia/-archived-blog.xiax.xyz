@@ -1,6 +1,6 @@
-title: LeetCode and HackerRank Challenges
+title: technical interview practices
 date: 2016-11-06 22:17:39
-tags: [Code Challenges, Interview Practices, LeetCode, HankerRank]
+tags: [technical interview]
 ---
 
 ### Arrays: Left Rotation

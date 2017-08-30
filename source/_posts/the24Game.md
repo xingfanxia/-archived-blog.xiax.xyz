@@ -1,6 +1,6 @@
 title: The 24 Game Solver Algorithm and Extensions - A Python Approach 24点算法及延伸 - 一个Python解法
 date: 2016-07-01 19:52:36
-tags: [python, development, algorithm, tutorial]
+tags: [python, algorithm, tutorial]
 ---
 
 ### Preword

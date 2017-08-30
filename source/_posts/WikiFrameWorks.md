@@ -1,6 +1,6 @@
-title: Wiki 框架调研
+title: research for stoooges wiki framework selection
 date: 2016-06-21 18:50:53
-tags: [Wiki]
+tags: [research]
 ---
 
 ## 大型框架

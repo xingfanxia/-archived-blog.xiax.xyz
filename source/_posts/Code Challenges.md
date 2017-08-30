@@ -1,6 +1,6 @@
 title: technical interview practices
 date: 2016-11-06 22:17:39
-tags: [technical interview, python]
+tags: [technical interview, Python]
 ---
 
 ### Arrays: Left Rotation

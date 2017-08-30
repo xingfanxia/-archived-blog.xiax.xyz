@@ -1,6 +1,6 @@
 title: Dummy Guide：如何使用Shadowsocks科学上网
 date: 2016-02-02 17:56:29
-tags: [GFW，SS]
+tags: [GFW，SS, linux, digital ocean]
 ---
 ## Requirement:
 

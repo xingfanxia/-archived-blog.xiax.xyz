@@ -1,6 +1,6 @@
 title: Python A Dummy Guide
 date: 2016-02-22 16:36:53
-tags: [Python, tutorial]
+tags: [Python, Tutorial]
 ---
 
 # A Dummy Guide to Python

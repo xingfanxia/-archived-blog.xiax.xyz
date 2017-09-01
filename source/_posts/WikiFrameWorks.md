@@ -1,6 +1,7 @@
 title: research for stoooges wiki framework selection
 date: 2016-06-21 18:50:53
 tags: [Research]
+categories: [Research]
 ---
 
 ## 大型框架

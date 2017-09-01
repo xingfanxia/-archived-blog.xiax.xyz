@@ -2,6 +2,7 @@
 title: Fast.ai Overview and Lesson 1 Notes
 date: 2017-09-01 01:18:22
 tags: [Deep Learning, Image Recognition, Vgg, Tutorial, Python]
+categories: [Deep Learning]
 ---
 
 ### Preface

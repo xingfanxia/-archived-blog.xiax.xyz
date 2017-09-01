@@ -1,6 +1,7 @@
 title: HelloWorld
 date: 2016-02-01 18:09:39
 tags: [Hello World]
+categories: [Miscellaneous]
 ---
 # What I am going to do with this blog?
 

@@ -37,14 +37,18 @@ I have to take this course after watching this overview.
 
 ### Lesson 1
 
-There is not much covered in lesson 1 really about Deep Learning, it is a general intro to all the tools and how to setup `Python`, `Jupyter`,  AWS p2 instances, etc. Afterwards is a brief intro about image recognition with `CNN(convolutional neural network)`.  I learned about how to use a pre-existing model to predict images and finetune the model to identify the task: tell if an image contains a cat v.s. a dog. And the homework is to get into the top 50% of Kaggle's [Dogs vs. Cats Redux: Kernels Edition Competition](https://www.kaggle.com/c/dogs-vs-cats-redux-kernels-edition). He also mentioned a few learning methods like "don't copy paste, write your own version".
+There is not much covered in lesson 1 really about Deep Learning, it is a general intro to all the tools and how to setup `Python`, `Jupyter`,  AWS p2 instances, etc. Afterwards is a brief intro about image recognition with `CNN(convolutional neural network)`.  
 
-Here is a copy of my notes: <a href="https://github.com/xxf1995/learn_fast_ai/blob/master/Lesson%201%20Use%20Vgg%20for%20Image%20Recognition%20Tasks%20Active%20Recall.ipynb" title="Fast.ai L1 Notes" target="_blank">L1 Notes</a>
+I learned about how to use a pre-existing model([Vgg](http://www.robots.ox.ac.uk/~vgg/research/very_deep/), winner of [ImageNet](http://www.image-net.org/) of 2014) to predict images and finetune the model to identify the task: tell if an image contains a cat v.s. a dog. And the homework is to get into the top 50% of Kaggle's [Dogs vs. Cats Redux: Kernels Edition Competition](https://www.kaggle.com/c/dogs-vs-cats-redux-kernels-edition). He also mentioned a few learning methods like "don't copy paste, write your own version".
+
+For the details, check out the lesson and my copy of notes and homework: [L1 Notes](https://github.com/xxf1995/learn_fast_ai/blob/master/Lesson%201%20Use%20Vgg%20for%20Image%20Recognition%20Tasks%20Active%20Recall.ipynb).
 
 ### Appendix
 
 - You will find everything here: [Lesson 1 at Fast.ai](http://course.fast.ai/lessons/lesson1.html)
 - **Jeremy Howard** was president and chief data scientist at **Kaggle**.
 - **Rachel Thomas** has a math PhD from Duke and was selected by Forbes as one of [“20 Incredible Women Advancing AI Research.”](https://www.forbes.com/sites/mariyayao/2017/05/18/meet-20-incredible-women-advancing-a-i-research/#78336fa426f9)
--  [A Mathematician’s Lament](https://www.maa.org/external_archive/devlin/LockhartsLament.pdf) by Paul Lockhart
+- [A Mathematician’s Lament](https://www.maa.org/external_archive/devlin/LockhartsLament.pdf) by Paul Lockhart
 - [My Learning Repo](https://github.com/xxf1995/learn_fast_ai)
+
+For the next blog, I will go thru the lesson 2 topics about `CNN`, maths of Deep Learning, and what is hidden in the `finetuning` of `Vgg`.

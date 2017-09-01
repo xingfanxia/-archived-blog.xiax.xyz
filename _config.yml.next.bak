@@ -570,7 +570,7 @@ pace_theme: pace-theme-center-atom
 # pace_theme: pace-theme-minimal
 
 # Canvas-nest
-canvas_nest: false
+canvas_nest: true
 
 # three_waves
 three_waves: false

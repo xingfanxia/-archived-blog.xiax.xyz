@@ -29,7 +29,7 @@ social:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://xxf1995.github.io
+url: http://blog.xiax.ai
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:

@@ -19,9 +19,8 @@ A lot of Chinese enjoy music of their own languages which are rarely accessible 
 - Open Network.
 - Click Advanced tab in the corner.
 - Choose proxy tab.
-- Choose Automatic Proxy Configuration (The second item on the list)
-- Add `http://xiax.ai/pac/mobile.pac` to the URL field. (I provided my configuration here originally, but apparently frequent access from the same IP results in IP-ban on the server; sorry that I can't provide that anymore)
-  Should look like this screenshot.
+- Choose Automatic Proxy Configuration (The second item on the list).
+- Add `http://xiax.ai/pac/mobile.pac` to the URL field. Should look like this screenshot.
   ![PAC Config on macOS](pac_mac_config.png)
 - Then click ok to go back.
 - Click apply.
@@ -38,11 +37,11 @@ A lot of Chinese enjoy music of their own languages which are rarely accessible 
 
 ### Caution
 - Note this will not work when Unblock Youku's proxy server is down. Just wait and try later.
-- Or you can setup your own shadowsocks server instead.
+- Or you can setup your own shadowsocks server instead. I will have a new tutorial for this in the next couples days.
+- Leave a comment if you have any trouble with this. I will try my best to help.
 
 ### Ref
 
 - `http://xiax.ai/pac/mobile.pac` is just a mirror of `http://pac.uku.im/pac.pac`, in case their server under `DDoS`.
-- If you are in Europe, use this config url as `PAC_URL`: `https://s1.jixun.moe/163/proxy.pac` by `jixun66`. (You can still use this in US, it would be slower tho)
 - [If you want to setup your own server](https://jixun.moe/2017/01/01/ymusic-hosts-fix/)
 - [Offical Manual from Unblock Youku](https://bbs.uku.im/t/topic/27)

@@ -51,8 +51,8 @@ $$ L_i = \sum_{j \ne y_i} max(0, s_j -s{y_i} + \Delta) $$
 2. $ j \ne y_i$ for all incorrect class
 3. $s_j$ for weight of the true label class
 4. $s_{y_i}$ for weight of other incorrect class
-4. $\Delta$ for tolerence of the difference
-5. $max(0, -)$ aka hinge loss, people sometimes use squared hinge loss as $max(0, -)^2$ that penalizes violated margins more strongly. Usually linear hinge loss is good enough. 
+5. $\Delta$ for tolerence of the difference
+6. $max(0, -)$ aka hinge loss, people sometimes use squared hinge loss as $max(0, -)^2$ that penalizes violated margins more strongly. Usually linear hinge loss is good enough. 
 
 In summary, the SVM loss function wants the score of the correct class $y_i$ to be larger than the incorrect class scores by at least by $\Delta$ (delta). If this is not the case, we will accumulate loss.
 
@@ -178,7 +178,7 @@ for step_size_log in [-10, -9, -8, -7, -6, -5,-4,-3,-2,-1]:
 ```
 
 2. Analytic Gradient
-Because of the fact numerical gradient are expensive to compute for datasets with millions of features which is very common for DNNs. ( Because each step needs to compute the gradient for each feature, so it is linear complexity).
+  Because of the fact numerical gradient are expensive to compute for datasets with millions of features which is very common for DNNs. ( Because each step needs to compute the gradient for each feature, so it is linear complexity).
 
 We normally use the other option: **analytic gradient**.
 
@@ -234,7 +234,19 @@ In short, for each training instance the backpropagation algorithm first makes a
 
 The Math details is skipped here, for details checkout here: [Back Propagation](http://cs231n.github.io/optimization-2/).
 
-### Refrence
+### The code
+So now we have a basic understanding of how Vgg works behind the scene and some fundaments about DNN. It's time to dig what's happening in the finetuning step. Basically, we just need to converge the 1000-categories output to our 2-categories output. 
+
+How can we do that?
+
+Just apply a DNN to it:
+1. Take the 1000 categories result as an input array of shape `[1000, 1]`.
+2. Train a DNN to fit the `[1000, 1]` input to `[2, 1]` ouput using the training set.
+3. Remove the original `1000 categories` layer and append our new layer.
+
+Checkout the [Source Code](https://github.com/xxf1995/learn_fast_ai/blob/master/Lesson%202%20Linear%20Model%20with%20CNN%20Features%20--%20Active%20Recall.ipynb) here for details.
+
+### Reference
 
 - [Fast.ai Lesson 2](http://wiki.fast.ai/index.php/Lesson_2_Notes)
 - [CS231n Convolutional Neural Networks for Visual Recognition](http://cs231n.github.io/)

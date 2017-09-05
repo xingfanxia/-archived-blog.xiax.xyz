@@ -15,7 +15,7 @@ A lot of Chinese enjoy music of their own languages which are rarely accessible 
 - Click Advanced tab in the corner.
 - Choose proxy tab.
 - Choose Automatic Proxy Configuration (The second item on the list)
-- Add `http://xiax.ai/neteasex.pac` to the URL field.
+- Add `PAC_URL` to the URL field. (I provided my configuration here originally, but apparently frequent access from the same IP results in IP-ban on the server; sorry that I can't provide that anymore)
   Should look like this screenshot.
   ![PAC Config on macOS](pac_mac_config.png)
 - Then click ok to go back.
@@ -24,5 +24,5 @@ A lot of Chinese enjoy music of their own languages which are rarely accessible 
 
 ### Ref
 
-- If you are in Europe, use this config url instead: `https://s1.jixun.moe/163/proxy.pac` by `jixun66`
-- [server config for this pac to work if you want to host your own server](https://jixun.moe/2017/01/01/ymusic-hosts-fix/)
+- If you are in Europe, use this config url as `PAC_URL`: `https://s1.jixun.moe/163/proxy.pac` by `jixun66`. (You can still use this in US, it would be slower tho)
+- [If you want to setup your own server](https://jixun.moe/2017/01/01/ymusic-hosts-fix/)

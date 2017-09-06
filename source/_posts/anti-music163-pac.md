@@ -7,8 +7,10 @@ categories: [GFW]
 
 ## Update
 - **Update 09/05/2017**
-Found a solution with Unblock Youku's DNS server instead to unlock more apps.
-(Sometimes won't work on desktop, use Unblock Youku's chrome extension instead)
+  1. Found a solution with Unblock Youku's DNS server instead to unlock more apps. (Sometimes won't work on desktop, use Unblock Youku's chrome extension instead)
+  2. This method has been tested work with:
+     - Bilibili WebApp and Bilibili iOS App to view Bilibili Bangumi (Bilibili正版番剧)
+     - music.163.com (Stable on mobile, Not on Desktop)
 
 ### Preface
 A lot of Chinese enjoy music of their own languages which are rarely accessible on spontify, pandora, or any other online music stream service not based in China. However, most companines offering music streaming service in China (like Netease, Tencent, Xiami) blocks foreign IPs for some complicated reasons. Among them, Netease is probably the most popular one among Chinese students abroad. So an easy one to regain access is very much needed.

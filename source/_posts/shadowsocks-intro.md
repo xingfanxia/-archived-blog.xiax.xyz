@@ -5,12 +5,16 @@ tags: [ss, GFW, Socks5]
 categories: [GFW]
 ---
 
+{% cq %} There is no perfect tool. {% endcq %}
+<!--more-->
+
 ### Brief
 #### VPN (aka Virtual Private Network)
 The purpose of `VPN` is to build a Private Network over the Public Network for encrypted communication purpose and is widely used in Enterprises initially. `VPN` gateway essentially works by encyprting data packets and changing the destination of data packets to achieve remote access. `VPN` has many different forms, mainly differentiated by the protocol they use, such as `PPTP`, `L2TP`, `OpenVPN`, etc. 
 
 #### Shadowsocks (aka Socks5 Proxy)
 `Socks` is a circuit-level gateway which is quite low-level. It is developed by David Koblas in 1990 and used as the open standard for Internet RFC ever since. Socks is not restricted to certain OS, unlike HTTP Proxy and application layer proxy. Socks Proxy merely transfer data packet and does not care about which protocol is used, which makes it much master than application layer proxy
+
 
 ### Summary
 - `VPN`

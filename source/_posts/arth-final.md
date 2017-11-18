@@ -10,7 +10,7 @@ tags:
 - Identification 5x
 - ​Comparison 4x
 - Essay
-<!-- more -->
+  <!-- more -->
 ### Prehistoric
 
 #### **1.11 Hall of Bulls, Lascaux Cave (France), c. 15000 BCE**
@@ -416,7 +416,7 @@ Transition to —> Anonymos Kouros(c 530) —> Doryphoros(c 450)
 
 ![](https://i.pinimg.com/736x/85/fc/66/85fc66d1d08e8e3716f81e2e8da515f0--reims-france-paris-france.jpg)
 
-#### 17.15 Nave, Reims Cathedral (France), begun c. 121
+#### 17.15 Nave, Reims Cathedral (France), begun c. 1211
 
 ![](https://upload.wikimedia.org/wikipedia/commons/e/ee/Reims_Cathedrale_Notre_Dame_interior_002.JPG)
 

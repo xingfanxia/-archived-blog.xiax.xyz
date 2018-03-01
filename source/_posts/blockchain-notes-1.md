@@ -6,7 +6,7 @@ tags: [Bitcoin, Blockchain, Consensus, Cryptography]
 
 This notes is written as my personal lecture notes taken down from the awesome lecture ["Bitcoin and Cryptocurrency Technologies"](https://www.coursera.org/learn/cryptocurrency/home/info) provided by Princeton University on Coursera. Hope you guys find it helpful in your learning!
 
-Grab the <a href="skip/Crypto_and_Decentralization_of_Bitcoin.pdf" target="_blank">PDF version</a> if you want better readability or archive!
+Grab the <a href="http://blog.xiax.ai/skip/Crypto_and_Decentralization_of_Bitcoin.pdf" target="_blank">PDF version</a> if you want better readability or archive!
 <!-- more -->
 
 # Lecture 1 Basic Cryptography related

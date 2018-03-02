@@ -8,3 +8,5 @@ mathblock:
 	 npm install hexo-renderer-kramed --save;
 	 npm uninstall hexo-math --save;
 	 npm install hexo-renderer-mathjax --save;
+tbk:
+	cp themes/next/_config.yml _config.yml.next.bak

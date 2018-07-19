@@ -244,7 +244,7 @@ Just apply a DNN to it:
 2. Train a DNN to fit the `[1000, 1]` input to `[2, 1]` ouput using the training set.
 3. Remove the original `1000 categories` layer and append our new layer.
 
-Checkout the [Source Code](https://github.com/xxf1995/learn_fast_ai/blob/master/Lesson%202%20Linear%20Model%20with%20CNN%20Features%20--%20Active%20Recall.ipynb) here for details.
+Checkout the [Source Code](https://github.com/xingfanxia/learn_fast_ai/blob/master/Lesson%202%20Linear%20Model%20with%20CNN%20Features%20--%20Active%20Recall.ipynb) here for details.
 
 ### Reference
 

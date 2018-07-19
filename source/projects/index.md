@@ -13,7 +13,7 @@ date: 2017-08-30 00:20:01
 
 ## Projects I am actively working on
 
-- [E-discovery](https://github.com/xxf1995/comps_ediscovery)
+- [E-discovery](https://github.com/xingfanxia/comps_ediscovery)
   Electronic discovery implemented in python. 
 
   - Includes `Random forest` algorithm built from scratch with `Python3`.
@@ -30,7 +30,7 @@ date: 2017-08-30 00:20:01
     - As the communist party is getting more and more control over the Internet public space. Hard to find a reliable and free translation api.
     - No idea how to reach to our potential users yet.
 
-- [Darwin Island](https://github.com/xxf1995/darwin-island-game)
+- [Darwin Island](https://github.com/xingfanxia/darwin-island-game)
   - This game intends to build a multiplayer experience like [agar.io](http://agar.io/).
   - But with entirely different flavor.
   - Players get to design their creature in dozens of aspects.

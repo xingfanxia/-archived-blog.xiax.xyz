@@ -102,4 +102,4 @@ math:
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@github.com:xxf1995/xxf1995.github.io.git
+  repo: git@github.com:xingfanxia/xxf1995.github.io.git

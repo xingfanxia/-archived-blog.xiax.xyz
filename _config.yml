@@ -101,5 +101,8 @@ math:
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
-  type: git
-  repo: git@github.com:xingfanxia/xxf1995.github.io.git
+  type: s3
+  bucket: blog.xiax.ai
+  aws_cli_profile: personal
+  region: us-west-1
+  headers: {CacheControl: 'max-age=604800, public'}

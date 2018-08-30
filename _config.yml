@@ -9,7 +9,7 @@ description:
 author: Xingfan Xia
 language: en
 timezone: America/Chicago
-avatar: http://7xqpdw.com1.z0.glb.clouddn.com/321_55f4fb5bc15dd.jpg
+avatar: https://7xqpdw.com1.z0.glb.clouddn.com/321_55f4fb5bc15dd.jpg
 
 
 # Disqus
@@ -20,7 +20,7 @@ google_analytics: UA-65724730-3
 
 #social
 social:
-  cv: http://www.xiax.tech
+  cv: https://xiax.ai
   github: https://github.com/xingfanxia
   twitter: https://twitter.com/your-user-name
   weibo: http://weibo.com/your-user-name
@@ -29,9 +29,9 @@ social:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://blog.xiax.ai
+url: https://blog.xiax.ai
 root: /
-permalink: :year/:month/:day/:title/
+permalink: :year/:month/:day/:title.html/
 permalink_defaults:
 
 

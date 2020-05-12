@@ -88,7 +88,7 @@ menu:
   categories: /categories || th
   projects: /projects || code-fork
   tags: /tags || tags
-  about: http://xiax.ai || user
+  about: http://xiax.dev || user
   archives: /archives || archive
 
 # Enable/Disable menu icons.

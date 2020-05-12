@@ -22,7 +22,7 @@ A lot of Chinese enjoy music of their own languages which are rarely accessible 
 - Click Advanced tab in the corner.
 - Choose proxy tab.
 - Choose Automatic Proxy Configuration (The second item on the list).
-- Add `http://xiax.ai/pac/mobile.pac` to the URL field. Should look like this screenshot.
+- Add `http://xiax.dev/pac/mobile.pac` to the URL field. Should look like this screenshot.
   ![PAC Config on macOS](pac_mac_config.png)
 - Then click ok to go back.
 - Click apply.
@@ -33,7 +33,7 @@ A lot of Chinese enjoy music of their own languages which are rarely accessible 
 - Click a the information icon on the Wi-Fi you are using.
     ![PAC Config on iOS 1](pac_ios_config_1.png)
 - Turn on proxy by activating the `auto` tab under proxy.
-- Add the `PAC_URL` (`http://xiax.ai/pac/mobile.pac`) to the field.
+- Add the `PAC_URL` (`http://xiax.dev/pac/mobile.pac`) to the field.
     ![PAC Config on iOS 2](pac_ios_config_2.png)
 - Go back and stream!
 
@@ -44,6 +44,6 @@ A lot of Chinese enjoy music of their own languages which are rarely accessible 
 
 ### Ref
 
-- `http://xiax.ai/pac/mobile.pac` is just a mirror of `http://pac.uku.im/pac.pac`, in case their server under `DDoS`.
+- `http://xiax.dev/pac/mobile.pac` is just a mirror of `http://pac.uku.im/pac.pac`, in case their server under `DDoS`.
 - [If you want to setup your own server](https://jixun.moe/2017/01/01/ymusic-hosts-fix/)
 - [Offical Manual from Unblock Youku](https://bbs.uku.im/t/topic/27)

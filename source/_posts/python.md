@@ -1,7 +1,9 @@
+---
 title: Python A Dummy Guide
 date: 2016-02-22 16:36:53
 tags: [Python, Tutorial]
 categories: [Tutorial]
+mathjax: true
 ---
 
 # A Dummy Guide to Python

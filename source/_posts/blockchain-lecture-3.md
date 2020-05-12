@@ -2,10 +2,11 @@
 title: Bitcoin and Cryptocurrency Technologies Lecture 3 Notes
 date: 2018-02-28 18:10:35
 tags: [Bitcoin, Blockchain, Consensus, Cryptography]
+mathjax: true
 ---
 Having a capstone project that I have to finish up and a lot of other random stuffs to deal with; was a little slow on my progress on finishing this course. Anyway, here is lecture 3.
 
-Grab the <a href="http://blog.xiax.ai/skip/mechanics_of_Bitcoin.pdf" target="_blank">PDF version</a> if you want better readability or archive!
+Grab the <a href="http://blog.xiax.dev/skip/mechanics_of_Bitcoin.pdf" target="_blank">PDF version</a> if you want better readability or archive!
 <!-- more -->
 
 # Mechanics of Bitcoin

@@ -20,7 +20,7 @@ google_analytics: UA-65724730-3
 
 #social
 social:
-  cv: https://xiax.ai
+  cv: https://xiax.dev
   github: https://github.com/xingfanxia
   twitter: https://twitter.com/your-user-name
   weibo: http://weibo.com/your-user-name
@@ -29,7 +29,7 @@ social:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://blog.xiax.ai
+url: https://blog.xiax.dev
 root: /
 permalink: :year/:month/:day/:title.html/
 permalink_defaults:
@@ -102,7 +102,7 @@ math:
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
   type: s3
-  bucket: blog.xiax.ai
+  bucket: blog.xiax.dev
   aws_cli_profile: personal
   region: us-west-1
   headers: {CacheControl: 'max-age=604800, public'}

@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Coder For Fun | Xingfan's Tech Blog
+title: Xingfan's Tech Blog
 subtitle: Random Stuff Randonly Updated
 description:
 author: Xingfan Xia
@@ -102,7 +102,7 @@ math:
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
   type: s3
-  bucket: blog.xiax.dev
-  aws_cli_profile: personal
+  bucket: blog.xiax.ai
+  aws_cli_profile: default
   region: us-west-1
   headers: {CacheControl: 'max-age=604800, public'}

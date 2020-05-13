@@ -106,3 +106,5 @@ deploy:
   aws_cli_profile: default
   region: us-west-1
   headers: {CacheControl: 'max-age=604800, public'}
+
+all_minifier: true
